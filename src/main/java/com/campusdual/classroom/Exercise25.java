@@ -9,18 +9,13 @@ public class Exercise25 {
         pila.push("Montessori");
         pila.push("Peralta");
         pila.push("House");
-
-
-
         return pila;
     }
 
     public static void printAndEmptyStack(Stack<String> stack) {
-        System.out.println("contenido "+ stack);
             //stack.pop();
-        while (!stack.isEmpty()){
-            System.out.println(stack.pop());
-
+        for (int i = stack.size()-1; i > -1 ; i--) {
+            System.out.print(stack.pop());
         }
     }
 
