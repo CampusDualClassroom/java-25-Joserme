@@ -5,10 +5,10 @@ import java.util.Stack;
 public class Exercise25 {
     public static Stack<String> createStack() {
         Stack<String> pila = new Stack<>();
-        pila.push("House");
-        pila.push("Peralta");
-        pila.push("Montessori");
         pila.push("Smith");
+        pila.push("Montessori");
+        pila.push("Peralta");
+        pila.push("House");
 
 
 
